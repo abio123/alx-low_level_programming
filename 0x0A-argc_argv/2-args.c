@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		/*While - print each argument*/
 		while (count < argc)
 		{
-			printf("%d\n", argv[count]);
+			printf("%s\n", argv[count]);
 			count++;
 		}
 	}
